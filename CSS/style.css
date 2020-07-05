@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Verdana, sans-serif;
+}
+
+/*header of the page*/
+header{
+    padding: 10px 16px 1px;
+    display: flex;
+    color: #545353;
+}
+header.sign{
+    width:50%;
+    float: left;
+}
+header .sign h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0
+}
+header .sign h1:hover{
+    color: #059005;
+    cursor: pointer;
+}
+header .sign span{
+    color: #059005;
+}
+
+/*top navigation bar*/
+.topnav{
+    padding: 0;
+}
+.topnav ,.horizontalbar {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.topnav,.horizontalbar li{
+    float: left;
+}
+.topnav,.horizontalbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.topnav,.horizontalbar li a:hover:not(.active){
+    background-color:black;   
+}
+.active{
+    background-color: green;
+}
+/*left bar*/
+.leftbar{
+    width: 17%;
+    float: left;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #a5a5a5;
+}
+.leftbar,.verticalbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.leftbar,.verticalbar li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+ }
+      
+ .leftbar,.verticalbar li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.leftbar,.verticalbar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+/*main section*/
+
+.main_section1,.main_section{
+    width: 80%;
+    float: right;
+    display: inline-table;
+    border-bottom: 1px solid #e2e2e2;
+}
+#main{
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 1px 0.5px 1px #e2e2e2;
+    padding: 10px;
+}
+.main_section #main_heading{
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: 80px;
+}
+.main_section #previous{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #059005;
+    float: left;
+    display: block;
+}
+.main_section #next{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #059005;
+    float: right;
+    display: block;
+}
+#pre_nxt_btns{
+    margin-bottom: 10px;
+    display: flow-root;
+}
+
+
+.right{
+    margin-top: 7%; 
+    float: right;
+    border-left: 0.5px solid rgb(233, 231, 231);
+    width: 15%;
+    text-align: center;
+}
+.right p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.right img{
+    width: 10em;
+} 
+
+.side-head-child{
+    background-color: rgb(83, 81, 81); 
+    color: white; 
+    padding: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.side-head{
+    background-color: #f1f1f1;
+}
+
+.side-head p{
+    color: black;
+    margin: 1px 0px;
+    font-size: 1.1em;
+}
+
+.side-head p:first-child{
+    margin-top: 0;
+    padding-top: 15px; 
+}
+
+.side-head p:last-child{
+    padding-bottom: 15px; 
+}
+.top{
+    float: left;
+    width: 80%;
+}
+
+.margin-left{
+    margin-left: 2%;
+}
+.top div .head{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+button{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    padding: 8px 15px;
+}
+.small-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.1em;
+}
+.small-x-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.button-right{
+    float: right;
+    margin-right: 20px;
+}
+p.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+.code{
+    background-color: #f1f1f1;
+}
+.item{
+    padding-left: 10px;
+    font-size: 15px;
+    color: brown;
+}
+
+.bracket{
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.property{
+    padding-left: 20px;
+    font-size: 15px;
+    color: red;
+}
+
+.value{
+    font-size: 15px;
+    color: blue;
+}
+.code-text{
+    padding: 5px 0px;
+    background-color: white;
+    border-left: 5px solid #4CAF50;
+    width: 95%;
+}
+
+.margin{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+.right{
+    text-align: center;
+}
+.right p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.right img{
+    width: 10em;
+} 
+
+.side-head-child{
+    background-color: rgb(83, 81, 81); 
+    color: white; 
+    padding: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.side-head{
+    background-color: #f1f1f1;
+}
+
+.side-head p{
+    color: black;
+    margin: 1px 0px;
+    font-size: 1.1em;
+}
+
+.side-head p:first-child{
+    margin-top: 0;
+    padding-top: 15px; 
+}
+
+.side-head p:last-child{
+    padding-bottom: 15px; 
+}
+footer{
+    display: block;
+    width: 80%;
+    float: right;
+}
+
+.margin{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+.button-foot{
+    background-color: #f1f1f1;
+    color: black;
+    width: 22%;
+    font-size: 12px;
+    margin-left: 22px;
+    letter-spacing: 1px;
+}
+
+.foot button{
+    display: inline;
+}
+
+.button-foot:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.foot-data{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.foot-data:last-child{
+    margin-bottom: 20px;
+}
+.small-x-head-foot{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.text-small{
+    font-size: 16px;
+    margin: 0;
+}
+
+.get-certified{
+    margin-top: 5px;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.get-certified:hover{
+    cursor: pointer;
+    background-color: black;
+}
